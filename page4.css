@@ -1,0 +1,131 @@
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: "adobe-clean", sans-serif;
+    margin-top: 100px;
+    text-decoration: blink dimgrey;
+}
+
+.arrow-button{
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(211, 27, 27);
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+.back{
+    text-align: center;
+    margin-left: 10px;
+    color: dimgray;
+}
+
+.container-card{
+    
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid rgb(211, 27, 27);
+    border-radius: 5px;
+    box-shadow:  4px 4px 5px 2px lightgray;
+
+}
+
+.trip-card{
+    text-align: center;
+    width: 100%;
+    font-family:"adobe-clean", sans-serif;
+}
+
+.heading2{
+    text-align: center;
+    color: rgb(248, 118, 118);
+    font-size:20px;
+    font-family:  "adobe-clean", sans-serif;
+}
+
+.completed-task{
+    color:red ;
+    text-decoration: line-through red;
+}
+
+.add-button{
+    font-size: 25px;
+    margin-left: 80%;
+    color: floralwhite;
+    background-color: rgb(211, 27, 27);
+    border: none;
+    border-radius: 50px;
+    margin-top: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.pending{
+    margin-right: 25px;
+}
+.space{
+    color: white;
+    text-decoration: line-through lightgrey;
+    
+}
+
+.notshow{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+.popup{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey;
+    top:260px;
+    left:40%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px grey;
+    
+
+}
+.addnew{
+    text-align: center;
+    font-size: 20px;
+    color: yellowgreen;
+
+}
+.bar{
+    position:relative;
+    left:60px;
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
+.addb{
+    position:absolute;
+    border: 0px;
+    border-radius: 3px;
+    bottom: 7px;
+    left:130px;
+    background-color: red;
+    color: white;
+}
+
+.next-pages{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    margin-left: 50% ;
+}
+.pgbutton{
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}

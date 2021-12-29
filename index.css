@@ -1,0 +1,102 @@
+.main-container{
+    width: 50%;
+    height: 10%;
+    position:relative;
+    margin: 50px auto;
+
+
+}
+.upper-con1{
+    width: 35%;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 50px;
+}
+.task{
+    color:aquamarine;
+    font-weight: bold;
+}
+.list{
+    opacity: 0.5;
+}
+.upper-con2{
+    width: 35%;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 30px;
+    position: absolute;
+    top:0;
+    right:0
+}
+.add-l{
+    position: absolute;
+    top:0;
+    right: 45px;
+    padding-top: 15px;
+    font-size: 50px;
+    opacity: 0.5;
+}
+.slides{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    gap: 40px;
+ 
+} 
+.div1{
+    border:1px grey solid;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px grey;
+    margin: auto;
+    position: relative;
+}
+.par{
+    position: absolute;
+    top:2px;
+    right:0px;
+    width: 85%;
+    height:23%;
+    text-align: left;
+    color: hotpink;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+}
+.ctask{
+    position: absolute;
+    top:45px;
+    left:30px;
+    text-decoration: line-through;
+    width: 100%;
+    font-size:18px ;
+    color:red;
+
+
+}
+.cbox{
+    position:absolute;
+    bottom:70px;
+    left:20px;
+    font-size: 18px;
+
+}
+    
+.next-pages{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    margin-left: 50% ;
+}
+.pgbutton{
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
